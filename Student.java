@@ -1,5 +1,6 @@
 public class Student extends Person{ //INHERITANCE
 
+    //to get this private variable we need getter method a.k.a. getters, and if u wanna modify that you'll need setter method a.k.a. setters
     private double gpa;
 
     Student(String name, int age, double gpa){
