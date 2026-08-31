@@ -16,6 +16,7 @@ public class Person {
         return age;
     }
 
+    //not necessary because we aren't modifying the name and age input BUT for the sake of example
     public void setName(String name){
         this.name = name;
     }
