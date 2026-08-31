@@ -1,9 +1,12 @@
 public class Main {
-    public static void main(String[] args){
-        //POLYMORPHISM
-        Shape[] shape = {Rectangle, Circle};
+    public static void main(String[] args) {
+        Rectangle rectangle = new Rectangle();
+        Circle circle = new Circle();
 
-        for(Shape x : shape){
+        //POLYMORPHISM
+        Shape[] shape = {rectangle, circle};
+
+        for (Shape x : shape) {
             x.draw();
         }
     }
